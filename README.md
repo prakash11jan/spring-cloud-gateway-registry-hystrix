@@ -5,3 +5,9 @@ http://localhost:8761/
 h2DB URL:
 DB name: jdbc:h2:mem:testdb
 http://localhost:9191/h2-console
+
+Payment service
+POST: http://localhost:8989/payment/doPayment
+{
+  "paymentStatus":"success"
+}
